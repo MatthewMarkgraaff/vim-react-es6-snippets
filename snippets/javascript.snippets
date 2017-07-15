@@ -56,13 +56,21 @@ snippet rc
 	import React, { Component } from 'react';
 	import PropTypes from 'prop-types';
 
-	class _${1:ClassName} extends Component {
+	export default class _${1:ClassName} extends Component {
 		static propTypes = {
-
+		
 		}
 
-    constructor(){
-    
+		constructor(){
+		
+		}
+
+		render(){
+		  return (
+			
+			);
+		}
+	}
     }
 
 		render() {
